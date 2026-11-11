@@ -37,3 +37,5 @@ htmlcov/
 *.spec
 .idea/
 .vscode/
+.codex/
+.agents/

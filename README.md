@@ -4,6 +4,34 @@ Rocky is a personal Windows desktop assistant built with Python and Tkinter.
 It combines local AI conversation, voice input, document question answering,
 reminders and desktop actions in one application.
 
+## Demo
+
+![Rocky desktop assistant walkthrough](docs/media/rocky-demo.gif)
+
+[Watch or download the full-resolution walkthrough (MP4)](docs/media/rocky-demo.mp4).
+
+This 35-second screen recording shows the dashboard, integrated calendar,
+source-based code explanations and document Q&A with source quotations. It uses
+text input and fictional sample data with local Ollama models. Audio is omitted
+and long processing waits are shortened; this is a feature demonstration, not a
+latency or speech-accuracy benchmark. The [sample files](docs/demo/README.md) are
+included for trying the same questions.
+
+<details>
+<summary>Full-size screenshots</summary>
+
+| Dashboard | Calendar |
+| --- | --- |
+| [![Rocky dashboard](docs/media/rocky-dashboard.png)](docs/media/rocky-dashboard.png) | [![Integrated reminder calendar](docs/media/rocky-calendar.png)](docs/media/rocky-calendar.png) |
+
+| Document Q&A | Coding assistant |
+| --- | --- |
+| [![Document answer with source quotations](docs/media/rocky-document-qa.png)](docs/media/rocky-document-qa.png) | [![Code explanation with file and line references](docs/media/rocky-code-assistant.png)](docs/media/rocky-code-assistant.png) |
+
+[View the source-passage screenshot](docs/media/rocky-document-sources.png).
+
+</details>
+
 ## Project overview
 
 - **Local AI:** Ollama integration with task-specific models and a local fallback.

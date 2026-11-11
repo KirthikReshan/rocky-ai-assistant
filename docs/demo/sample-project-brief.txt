@@ -1,0 +1,7 @@
+SAMPLE PROJECT BRIEF
+
+Project: Campus Task Tracker
+The submission deadline is 20 November 2026.
+The project budget is 500 dollars.
+The main deliverables are a task dashboard, a searchable notes page and a reminder calendar.
+This is fictional sample data created for the Rocky portfolio demonstration.
