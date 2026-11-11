@@ -1,0 +1,39 @@
+.venv/
+__pycache__/
+models/
+*.log
+local-data/
+build/
+dist/
+releases/
+current-release.txt*
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Personal application data and recordings
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+recordings/
+backups/
+
+# Development caches and generated packages
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+*.py[cod]
+*.spec
+.idea/
+.vscode/

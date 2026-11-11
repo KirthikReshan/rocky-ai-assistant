@@ -1,0 +1,3 @@
+-r requirements.txt
+faster-whisper>=1.2,<2
+webrtcvad-wheels>=2.0.14,<3
